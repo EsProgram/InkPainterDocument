@@ -20,12 +20,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="teturepaint_big.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="tplg_lerge.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Unity Texture Paint
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">v2.1.1</span>
    </div>
-   <div id="projectbrief">Unity Asset</div>
+   <div id="projectbrief">3D realtime painter for Unity</div>
   </td>
  </tr>
  </tbody>
@@ -75,7 +75,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>テクスチャペイントを行うキャンバス マテリアル単位で設定する  
+<p>Texture paint to canvas. To set the per-material.  
  <a href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Es.TexturePaint.DynamicCanvas:</div>
@@ -89,47 +89,59 @@ Inheritance diagram for Es.TexturePaint.DynamicCanvas:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4c594827a9db7d3cb610d5d4f4a8d27b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a4c594827a9db7d3cb610d5d4f4a8d27b">PaintUVDirect</a> (<a class="el" href="class_es_1_1_texture_paint_1_1_paint_brush.html">PaintBrush</a> brush, Vector2 uv)</td></tr>
-<tr class="memdesc:a4c594827a9db7d3cb610d5d4f4a8d27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">直接UV座標を指定したペイント処理を行う  <a href="#a4c594827a9db7d3cb610d5d4f4a8d27b">More...</a><br /></td></tr>
+<tr class="memdesc:a4c594827a9db7d3cb610d5d4f4a8d27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paint processing that UV coordinates to the specified.  <a href="#a4c594827a9db7d3cb610d5d4f4a8d27b">More...</a><br /></td></tr>
 <tr class="separator:a4c594827a9db7d3cb610d5d4f4a8d27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77a259486593f058a3beb63aaf3484df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a77a259486593f058a3beb63aaf3484df">PaintNearestTriangleSurface</a> (<a class="el" href="class_es_1_1_texture_paint_1_1_paint_brush.html">PaintBrush</a> brush, Vector3 worldPos, Camera renderCamera=null)</td></tr>
-<tr class="memdesc:a77a259486593f058a3beb63aaf3484df"><td class="mdescLeft">&#160;</td><td class="mdescRight">与えられたworldPosに近いMeshSurface上の点に対してペイント処理を行う  <a href="#a77a259486593f058a3beb63aaf3484df">More...</a><br /></td></tr>
+<tr class="memdesc:a77a259486593f058a3beb63aaf3484df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paint of points close to the given world-space position on the Mesh surface.  <a href="#a77a259486593f058a3beb63aaf3484df">More...</a><br /></td></tr>
 <tr class="separator:a77a259486593f058a3beb63aaf3484df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7280e62a2bdb14356be421fb7a50208"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#ad7280e62a2bdb14356be421fb7a50208">Paint</a> (<a class="el" href="class_es_1_1_texture_paint_1_1_paint_brush.html">PaintBrush</a> brush, Vector3 worldPos, Camera renderCamera=null)</td></tr>
-<tr class="memdesc:ad7280e62a2bdb14356be421fb7a50208"><td class="mdescLeft">&#160;</td><td class="mdescRight">ペイント処理を行う  <a href="#ad7280e62a2bdb14356be421fb7a50208">More...</a><br /></td></tr>
+<tr class="memdesc:ad7280e62a2bdb14356be421fb7a50208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paint processing that use world-space surface position.  <a href="#ad7280e62a2bdb14356be421fb7a50208">More...</a><br /></td></tr>
 <tr class="separator:ad7280e62a2bdb14356be421fb7a50208"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17cfdaae859ae95194e91d688d1cfafe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a17cfdaae859ae95194e91d688d1cfafe">Paint</a> (<a class="el" href="class_es_1_1_texture_paint_1_1_paint_brush.html">PaintBrush</a> brush, RaycastHit hitInfo)</td></tr>
-<tr class="memdesc:a17cfdaae859ae95194e91d688d1cfafe"><td class="mdescLeft">&#160;</td><td class="mdescRight">ペイント処理を行う CanvasにはMeshColliderが設定されている必要があります  <a href="#a17cfdaae859ae95194e91d688d1cfafe">More...</a><br /></td></tr>
+<tr class="memdesc:a17cfdaae859ae95194e91d688d1cfafe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paint processing that use raycast hit data. Must MeshCollider is set to the canvas.  <a href="#a17cfdaae859ae95194e91d688d1cfafe">More...</a><br /></td></tr>
 <tr class="separator:a17cfdaae859ae95194e91d688d1cfafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69a4765d95bd94c36128c2ddcc45baa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a69a4765d95bd94c36128c2ddcc45baa1">ResetPaint</a> ()</td></tr>
-<tr class="memdesc:a69a4765d95bd94c36128c2ddcc45baa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">ペイントをリセットする  <a href="#a69a4765d95bd94c36128c2ddcc45baa1">More...</a><br /></td></tr>
+<tr class="memdesc:a69a4765d95bd94c36128c2ddcc45baa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">To reset the paint.  <a href="#a69a4765d95bd94c36128c2ddcc45baa1">More...</a><br /></td></tr>
 <tr class="separator:a69a4765d95bd94c36128c2ddcc45baa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10b0d26f2efeaf98bd8ea84861e01579"><td class="memItemLeft" align="right" valign="top">Texture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a10b0d26f2efeaf98bd8ea84861e01579">GetMainTexture</a> (string materialName)</td></tr>
-<tr class="memdesc:a10b0d26f2efeaf98bd8ea84861e01579"><td class="mdescLeft">&#160;</td><td class="mdescRight">元のメインテクスチャを取得する  <a href="#a10b0d26f2efeaf98bd8ea84861e01579">More...</a><br /></td></tr>
+<tr class="memdesc:a10b0d26f2efeaf98bd8ea84861e01579"><td class="mdescLeft">&#160;</td><td class="mdescRight">To get the original main texture.  <a href="#a10b0d26f2efeaf98bd8ea84861e01579">More...</a><br /></td></tr>
 <tr class="separator:a10b0d26f2efeaf98bd8ea84861e01579"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3b07d5ec1dc9bb1e8556512a677515c"><td class="memItemLeft" align="right" valign="top">RenderTexture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#ae3b07d5ec1dc9bb1e8556512a677515c">GetPaintMainTexture</a> (string materialName)</td></tr>
-<tr class="memdesc:ae3b07d5ec1dc9bb1e8556512a677515c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ペイント中のメインテクスチャを取得する  <a href="#ae3b07d5ec1dc9bb1e8556512a677515c">More...</a><br /></td></tr>
+<tr class="memdesc:ae3b07d5ec1dc9bb1e8556512a677515c"><td class="mdescLeft">&#160;</td><td class="mdescRight">To get the main texture in paint.  <a href="#ae3b07d5ec1dc9bb1e8556512a677515c">More...</a><br /></td></tr>
 <tr class="separator:ae3b07d5ec1dc9bb1e8556512a677515c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169e43f0fabe516e663540c1441365a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a169e43f0fabe516e663540c1441365a7">SetPaintMainTexture</a> (string materialName, RenderTexture newTexture)</td></tr>
+<tr class="memdesc:a169e43f0fabe516e663540c1441365a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set paint texture.  <a href="#a169e43f0fabe516e663540c1441365a7">More...</a><br /></td></tr>
+<tr class="separator:a169e43f0fabe516e663540c1441365a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad86981da49b195b18ac18e34debc8392"><td class="memItemLeft" align="right" valign="top">Texture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#ad86981da49b195b18ac18e34debc8392">GetNormalTexture</a> (string materialName)</td></tr>
-<tr class="memdesc:ad86981da49b195b18ac18e34debc8392"><td class="mdescLeft">&#160;</td><td class="mdescRight">元の法線マップを取得する  <a href="#ad86981da49b195b18ac18e34debc8392">More...</a><br /></td></tr>
+<tr class="memdesc:ad86981da49b195b18ac18e34debc8392"><td class="mdescLeft">&#160;</td><td class="mdescRight">To get the original normal map.  <a href="#ad86981da49b195b18ac18e34debc8392">More...</a><br /></td></tr>
 <tr class="separator:ad86981da49b195b18ac18e34debc8392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61c376bd87d74e55dc4bd981b8f3fd0e"><td class="memItemLeft" align="right" valign="top">RenderTexture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a61c376bd87d74e55dc4bd981b8f3fd0e">GetPaintNormalTexture</a> (string materialName)</td></tr>
-<tr class="memdesc:a61c376bd87d74e55dc4bd981b8f3fd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ペイント中の法線マップを取得する  <a href="#a61c376bd87d74e55dc4bd981b8f3fd0e">More...</a><br /></td></tr>
+<tr class="memdesc:a61c376bd87d74e55dc4bd981b8f3fd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">To get the paint in normal map.  <a href="#a61c376bd87d74e55dc4bd981b8f3fd0e">More...</a><br /></td></tr>
 <tr class="separator:a61c376bd87d74e55dc4bd981b8f3fd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa264564e7b1c453e25c589a54efb7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#abaa264564e7b1c453e25c589a54efb7a">SetPaintNormalTexture</a> (string materialName, RenderTexture newTexture)</td></tr>
+<tr class="memdesc:abaa264564e7b1c453e25c589a54efb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set paint texture.  <a href="#abaa264564e7b1c453e25c589a54efb7a">More...</a><br /></td></tr>
+<tr class="separator:abaa264564e7b1c453e25c589a54efb7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a179c04645b03340c81c07cd3bba113a6"><td class="memItemLeft" align="right" valign="top">Texture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a179c04645b03340c81c07cd3bba113a6">GetHeightTexture</a> (string materialName)</td></tr>
-<tr class="memdesc:a179c04645b03340c81c07cd3bba113a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">元のハイトマップを取得する  <a href="#a179c04645b03340c81c07cd3bba113a6">More...</a><br /></td></tr>
+<tr class="memdesc:a179c04645b03340c81c07cd3bba113a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">To get the original height map.  <a href="#a179c04645b03340c81c07cd3bba113a6">More...</a><br /></td></tr>
 <tr class="separator:a179c04645b03340c81c07cd3bba113a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ddc8123cab4fd796cf395e8e391f93c"><td class="memItemLeft" align="right" valign="top">RenderTexture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a3ddc8123cab4fd796cf395e8e391f93c">GetPaintHeightTexture</a> (string materialName)</td></tr>
-<tr class="memdesc:a3ddc8123cab4fd796cf395e8e391f93c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ペイント中のハイトマップを取得する  <a href="#a3ddc8123cab4fd796cf395e8e391f93c">More...</a><br /></td></tr>
+<tr class="memdesc:a3ddc8123cab4fd796cf395e8e391f93c"><td class="mdescLeft">&#160;</td><td class="mdescRight">To get the paint in height map.  <a href="#a3ddc8123cab4fd796cf395e8e391f93c">More...</a><br /></td></tr>
 <tr class="separator:a3ddc8123cab4fd796cf395e8e391f93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a006eb193e8e9934253d8c37901560780"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a006eb193e8e9934253d8c37901560780">SetPaintHeightTexture</a> (string materialName, RenderTexture newTexture)</td></tr>
+<tr class="memdesc:a006eb193e8e9934253d8c37901560780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set paint texture.  <a href="#a006eb193e8e9934253d8c37901560780">More...</a><br /></td></tr>
+<tr class="separator:a006eb193e8e9934253d8c37901560780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:ab02253a48607e037fb1b7d7848349a99"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html">DynamicCanvas</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html#ab02253a48607e037fb1b7d7848349a99">OnInitializedAfter</a><code> [set]</code></td></tr>
+<tr class="memdesc:ab02253a48607e037fb1b7d7848349a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by dynamic canvas initialization completion times.  <a href="#ab02253a48607e037fb1b7d7848349a99">More...</a><br /></td></tr>
+<tr class="separator:ab02253a48607e037fb1b7d7848349a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaeb9b6cde5043e77802cc3589a0cfca"><td class="memItemLeft" align="right" valign="top"><a id="abaeb9b6cde5043e77802cc3589a0cfca"></a>
 <a class="el" href="class_es_1_1_texture_paint_1_1_mesh_operator.html">MeshOperator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MeshOperator</b><code> [get]</code></td></tr>
 <tr class="separator:abaeb9b6cde5043e77802cc3589a0cfca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>テクスチャペイントを行うキャンバス マテリアル単位で設定する </p>
+<div class="textblock"><p>Texture paint to canvas. To set the per-material. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a179c04645b03340c81c07cd3bba113a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a179c04645b03340c81c07cd3bba113a6">&sect;&nbsp;</a></span>GetHeightTexture()</h2>
@@ -147,14 +159,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>元のハイトマップを取得する </p>
+<p>To get the original height map. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">materialName</td><td>取得するテクスチャが設定されているマテリアル名</td></tr>
+    <tr><td class="paramname">materialName</td><td>Material name.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>元のハイトマップ</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Original height map.</dd></dl>
 
 </div>
 </div>
@@ -174,14 +186,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>元のメインテクスチャを取得する </p>
+<p>To get the original main texture. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">materialName</td><td>取得するテクスチャが設定されているマテリアル名</td></tr>
+    <tr><td class="paramname">materialName</td><td>Material name.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>元のメインテクスチャ</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Original main texture.</dd></dl>
 
 </div>
 </div>
@@ -201,14 +213,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>元の法線マップを取得する </p>
+<p>To get the original normal map. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">materialName</td><td>取得するテクスチャが設定されているマテリアル名</td></tr>
+    <tr><td class="paramname">materialName</td><td>Material name.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>元の法線マップ</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Original normal map.</dd></dl>
 
 </div>
 </div>
@@ -228,14 +240,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ペイント中のハイトマップを取得する </p>
+<p>To get the paint in height map. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">materialName</td><td>取得するテクスチャが設定されているマテリアル名</td></tr>
+    <tr><td class="paramname">materialName</td><td>Material name.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ペイント中のハイトマップ</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Height map in paint.</dd></dl>
 
 </div>
 </div>
@@ -255,14 +267,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ペイント中のメインテクスチャを取得する </p>
+<p>To get the main texture in paint. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">materialName</td><td>取得するテクスチャが設定されているマテリアル名</td></tr>
+    <tr><td class="paramname">materialName</td><td>Material name.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ペイント中のメインテクスチャ</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Main texture in paint.</dd></dl>
 
 </div>
 </div>
@@ -282,14 +294,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ペイント中の法線マップを取得する </p>
+<p>To get the paint in normal map. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">materialName</td><td>取得するテクスチャが設定されているマテリアル名</td></tr>
+    <tr><td class="paramname">materialName</td><td>Material name.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ペイント中の法線マップ</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Normal map in paint.</dd></dl>
 
 </div>
 </div>
@@ -325,16 +337,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ペイント処理を行う </p>
+<p>Paint processing that use world-space surface position. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">brush</td><td>ブラシ</td></tr>
-    <tr><td class="paramname">worldPos</td><td>キャンバス上の塗る点(World-Space) メッシュが構成する形状のサーフェスの上の点 </td></tr>
-    <tr><td class="paramname">renderCamera</td><td>レンダリングに利用するカメラ</td></tr>
+    <tr><td class="paramname">brush</td><td>Brush data.</td></tr>
+    <tr><td class="paramname">worldPos</td><td>Point on object surface (world-space).</td></tr>
+    <tr><td class="paramname">renderCamera</td><td>Camera to use to render the object.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ペイント成否</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The success or failure of the paint.</dd></dl>
 
 </div>
 </div>
@@ -364,15 +376,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ペイント処理を行う CanvasにはMeshColliderが設定されている必要があります </p>
+<p>Paint processing that use raycast hit data. Must MeshCollider is set to the canvas. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">brush</td><td>ブラシ</td></tr>
-    <tr><td class="paramname">hitInfo</td><td>RaycastのHit情報</td></tr>
+    <tr><td class="paramname">brush</td><td>Brush data.</td></tr>
+    <tr><td class="paramname">hitInfo</td><td>Raycast hit info.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ペイントの成否</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The success or failure of the paint.</dd></dl>
 
 </div>
 </div>
@@ -408,16 +420,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>与えられたworldPosに近いMeshSurface上の点に対してペイント処理を行う </p>
+<p>Paint of points close to the given world-space position on the Mesh surface. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">brush</td><td>ブラシ</td></tr>
-    <tr><td class="paramname">worldPos</td><td>近似点</td></tr>
-    <tr><td class="paramname">renderCamera</td><td>レンダリングに利用するカメラ</td></tr>
+    <tr><td class="paramname">brush</td><td>Brush data.</td></tr>
+    <tr><td class="paramname">worldPos</td><td>Approximate point.</td></tr>
+    <tr><td class="paramname">renderCamera</td><td>Camera to use to render the object.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The success or failure of the paint.</dd></dl>
 
 </div>
 </div>
@@ -447,15 +459,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>直接UV座標を指定したペイント処理を行う </p>
+<p>Paint processing that UV coordinates to the specified. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">brush</td><td>ブラシ</td></tr>
-    <tr><td class="paramname">uv</td><td>ヒット位置のUV座標</td></tr>
+    <tr><td class="paramname">brush</td><td>Brush data.</td></tr>
+    <tr><td class="paramname">uv</td><td>UV coordinates for the hit location.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ペイントの成否</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The success or failure of the paint.</dd></dl>
 
 </div>
 </div>
@@ -474,7 +486,143 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ペイントをリセットする </p>
+<p>To reset the paint. </p>
+
+</div>
+</div>
+<a id="a006eb193e8e9934253d8c37901560780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a006eb193e8e9934253d8c37901560780">&sect;&nbsp;</a></span>SetPaintHeightTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Es.TexturePaint.DynamicCanvas.SetPaintHeightTexture </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>materialName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RenderTexture&#160;</td>
+          <td class="paramname"><em>newTexture</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set paint texture. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">materialName</td><td>Material name.</td></tr>
+    <tr><td class="paramname">newTexture</td><td>New rendertexture.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a169e43f0fabe516e663540c1441365a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a169e43f0fabe516e663540c1441365a7">&sect;&nbsp;</a></span>SetPaintMainTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Es.TexturePaint.DynamicCanvas.SetPaintMainTexture </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>materialName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RenderTexture&#160;</td>
+          <td class="paramname"><em>newTexture</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set paint texture. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">materialName</td><td>Material name.</td></tr>
+    <tr><td class="paramname">newTexture</td><td>New rendertexture.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abaa264564e7b1c453e25c589a54efb7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaa264564e7b1c453e25c589a54efb7a">&sect;&nbsp;</a></span>SetPaintNormalTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Es.TexturePaint.DynamicCanvas.SetPaintNormalTexture </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>materialName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RenderTexture&#160;</td>
+          <td class="paramname"><em>newTexture</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set paint texture. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">materialName</td><td>Material name.</td></tr>
+    <tr><td class="paramname">newTexture</td><td>New rendertexture.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="ab02253a48607e037fb1b7d7848349a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab02253a48607e037fb1b7d7848349a99">&sect;&nbsp;</a></span>OnInitializedAfter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;<a class="el" href="class_es_1_1_texture_paint_1_1_dynamic_canvas.html">DynamicCanvas</a>&gt; Es.TexturePaint.DynamicCanvas.OnInitializedAfter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by dynamic canvas initialization completion times. </p>
 
 </div>
 </div>

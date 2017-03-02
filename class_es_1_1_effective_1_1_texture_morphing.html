@@ -20,12 +20,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="teturepaint_big.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="tplg_lerge.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Unity Texture Paint
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">v2.1.1</span>
    </div>
-   <div id="projectbrief">Unity Asset</div>
+   <div id="projectbrief">3D realtime painter for Unity</div>
   </td>
  </tr>
  </tbody>
@@ -73,17 +73,17 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>テクスチャのモーフィングを実行するクラス  
+<p>A class that morphs the texture.  
  <a href="class_es_1_1_effective_1_1_texture_morphing.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a57bf32c6145d0f79e8965e9d4a7781"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_effective_1_1_texture_morphing.html#a7a57bf32c6145d0f79e8965e9d4a7781">Lerp</a> (Texture src, RenderTexture dst, float lerpCoef)</td></tr>
-<tr class="memdesc:a7a57bf32c6145d0f79e8965e9d4a7781"><td class="mdescLeft">&#160;</td><td class="mdescRight">2つのテクスチャを補間したテクスチャを作成する  <a href="#a7a57bf32c6145d0f79e8965e9d4a7781">More...</a><br /></td></tr>
+<tr class="memdesc:a7a57bf32c6145d0f79e8965e9d4a7781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a texture that complements two textures.  <a href="#a7a57bf32c6145d0f79e8965e9d4a7781">More...</a><br /></td></tr>
 <tr class="separator:a7a57bf32c6145d0f79e8965e9d4a7781"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>テクスチャのモーフィングを実行するクラス </p>
+<div class="textblock"><p>A class that morphs the texture. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7a57bf32c6145d0f79e8965e9d4a7781"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a57bf32c6145d0f79e8965e9d4a7781">&sect;&nbsp;</a></span>Lerp()</h2>
@@ -125,13 +125,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>2つのテクスチャを補間したテクスチャを作成する </p>
+<p>Create a texture that complements two textures. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">texture</td><td>RenderTexture</td></tr>
-    <tr><td class="paramname">src</td><td>モーフィングに利用するテクスチャ</td></tr>
-    <tr><td class="paramname">dst</td><td>モーフィング後の値を上書きするテクスチャ</td></tr>
-    <tr><td class="paramname">lerpCoef</td><td>補間係数</td></tr>
+    <tr><td class="paramname">src</td><td>Texture to use for morphing.</td></tr>
+    <tr><td class="paramname">dst</td><td>Texture to use for morphing. It is overwritten after calculation.</td></tr>
+    <tr><td class="paramname">lerpCoef</td><td>Interpolation coefficient.</td></tr>
   </table>
   </dd>
 </dl>

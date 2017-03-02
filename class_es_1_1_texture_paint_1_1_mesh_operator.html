@@ -20,12 +20,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="teturepaint_big.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="tplg_lerge.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Unity Texture Paint
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">v2.1.1</span>
    </div>
-   <div id="projectbrief">Unity Asset</div>
+   <div id="projectbrief">3D realtime painter for Unity</div>
   </td>
  </tr>
  </tbody>
@@ -72,6 +72,9 @@ $(function() {
 <div class="title">Es.TexturePaint.MeshOperator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A class that manipulates Mesh.  
+ <a href="class_es_1_1_texture_paint_1_1_mesh_operator.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -79,13 +82,15 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>MeshOperator</b> (Mesh mesh)</td></tr>
 <tr class="separator:a923b320b7100149c8eb9a1286ce17248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac820f5703cf41cc6a362d7f77018c3c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_mesh_operator.html#ac820f5703cf41cc6a362d7f77018c3c6">LocalPointToUV</a> (Vector3 localPoint, Matrix4x4 matrixMVP, out Vector2 uv)</td></tr>
-<tr class="memdesc:ac820f5703cf41cc6a362d7f77018c3c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ローカル座標をUV座標に変換する  <a href="#ac820f5703cf41cc6a362d7f77018c3c6">More...</a><br /></td></tr>
+<tr class="memdesc:ac820f5703cf41cc6a362d7f77018c3c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert local-space point to texture coordinates.  <a href="#ac820f5703cf41cc6a362d7f77018c3c6">More...</a><br /></td></tr>
 <tr class="separator:ac820f5703cf41cc6a362d7f77018c3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b1bb014add5faca2ee301e02bbd9af8"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_texture_paint_1_1_mesh_operator.html#a7b1bb014add5faca2ee301e02bbd9af8">NearestLocalSurfacePoint</a> (Vector3 localPoint)</td></tr>
-<tr class="memdesc:a7b1bb014add5faca2ee301e02bbd9af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したLocal-Space上の点に一番近いオブジェクト表面上の点を返す  <a href="#a7b1bb014add5faca2ee301e02bbd9af8">More...</a><br /></td></tr>
+<tr class="memdesc:a7b1bb014add5faca2ee301e02bbd9af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the point on the surface of Mesh closest to the point on the specified local-space.  <a href="#a7b1bb014add5faca2ee301e02bbd9af8">More...</a><br /></td></tr>
 <tr class="separator:a7b1bb014add5faca2ee301e02bbd9af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class that manipulates Mesh. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac820f5703cf41cc6a362d7f77018c3c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac820f5703cf41cc6a362d7f77018c3c6">&sect;&nbsp;</a></span>LocalPointToUV()</h2>
 
@@ -118,16 +123,16 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>ローカル座標をUV座標に変換する </p>
+<p>Convert local-space point to texture coordinates. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">localPoint</td><td>Local-Space Point</td></tr>
-    <tr><td class="paramname">matrixMVP</td><td>World-View-Projection変換行列</td></tr>
-    <tr><td class="paramname">uv</td><td>変換後のUV座標</td></tr>
+    <tr><td class="paramname">matrixMVP</td><td>World-View-Projection Transformation matrix.</td></tr>
+    <tr><td class="paramname">uv</td><td>UV coordinates after conversion.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>変換の成否</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the conversion was successful.</dd></dl>
 
 </div>
 </div>
@@ -147,14 +152,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>指定したLocal-Space上の点に一番近いオブジェクト表面上の点を返す </p>
+<p>Returns the point on the surface of Mesh closest to the point on the specified local-space. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">localPoint</td><td>Local-Space Point</td></tr>
+    <tr><td class="paramname">localPoint</td><td>The point of local-space.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Local-Space Point</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Mesh The point of local-space on the surface.</dd></dl>
 
 </div>
 </div>

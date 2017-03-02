@@ -1,0 +1,9 @@
+digraph "Es.TexturePaint.DynamicCanvas.Paint"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12 [label="Es.TexturePaint.DynamicCanvas.\lPaint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Es.TexturePaint.MeshOperator.\lLocalPointToUV",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_es_1_1_texture_paint_1_1_mesh_operator.html#ac820f5703cf41cc6a362d7f77018c3c6",tooltip="Convert local-space point to texture coordinates. "];
+}

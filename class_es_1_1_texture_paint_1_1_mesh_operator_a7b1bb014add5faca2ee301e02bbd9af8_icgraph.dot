@@ -1,0 +1,9 @@
+digraph "Es.TexturePaint.MeshOperator.NearestLocalSurfacePoint"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="Es.TexturePaint.MeshOperator.\lNearestLocalSurfacePoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Es.TexturePaint.DynamicCanvas.\lPaintNearestTriangleSurface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a77a259486593f058a3beb63aaf3484df",tooltip="Paint of points close to the given world-space position on the Mesh surface. "];
+}

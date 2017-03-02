@@ -20,12 +20,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="teturepaint_big.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="tplg_lerge.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Unity Texture Paint
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">v2.1.1</span>
    </div>
-   <div id="projectbrief">Unity Asset</div>
+   <div id="projectbrief">3D realtime painter for Unity</div>
   </td>
  </tr>
  </tbody>
@@ -74,7 +74,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>テクスチャの指定範囲を取得するクラス  
+<p>Class for obtaining specified range of texture.  
  <a href="class_es_1_1_effective_1_1_grab_area.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -82,18 +82,18 @@ Public Types</h2></td></tr>
 <tr class="memitem:a40e92d4df7a47f2dddb754ff3ecafc13"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_effective_1_1_grab_area.html#a40e92d4df7a47f2dddb754ff3ecafc13">GrabTextureWrapMode</a> { <b>Clamp</b>, 
 <b>Repeat</b>, 
 <b>Clip</b>
- }<tr class="memdesc:a40e92d4df7a47f2dddb754ff3ecafc13"><td class="mdescLeft">&#160;</td><td class="mdescRight">テクスチャのラップモード  <a href="class_es_1_1_effective_1_1_grab_area.html#a40e92d4df7a47f2dddb754ff3ecafc13">More...</a><br /></td></tr>
+ }<tr class="memdesc:a40e92d4df7a47f2dddb754ff3ecafc13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texture wrap mode.  <a href="class_es_1_1_effective_1_1_grab_area.html#a40e92d4df7a47f2dddb754ff3ecafc13">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a40e92d4df7a47f2dddb754ff3ecafc13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acaf96d9383d8f26c02689d5c8ce2b947"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_es_1_1_effective_1_1_grab_area.html#acaf96d9383d8f26c02689d5c8ce2b947">Clip</a> (Texture clipTexture, float clipScale, Texture grabTargetTexture, Vector2 targetUV, <a class="el" href="class_es_1_1_effective_1_1_grab_area.html#a40e92d4df7a47f2dddb754ff3ecafc13">GrabTextureWrapMode</a> wrapMode, RenderTexture dst)</td></tr>
-<tr class="memdesc:acaf96d9383d8f26c02689d5c8ce2b947"><td class="mdescLeft">&#160;</td><td class="mdescRight">クリップテクスチャによって指定される範囲のターゲットテクスチャを切り抜く  <a href="#acaf96d9383d8f26c02689d5c8ce2b947">More...</a><br /></td></tr>
+<tr class="memdesc:acaf96d9383d8f26c02689d5c8ce2b947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crop the range specified by the clip texture from the target texture.  <a href="#acaf96d9383d8f26c02689d5c8ce2b947">More...</a><br /></td></tr>
 <tr class="separator:acaf96d9383d8f26c02689d5c8ce2b947"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>テクスチャの指定範囲を取得するクラス </p>
+<div class="textblock"><p>Class for obtaining specified range of texture. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a40e92d4df7a47f2dddb754ff3ecafc13"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40e92d4df7a47f2dddb754ff3ecafc13">&sect;&nbsp;</a></span>GrabTextureWrapMode</h2>
@@ -115,7 +115,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>テクスチャのラップモード </p>
+<p>Texture wrap mode. </p>
 
 </div>
 </div>
@@ -178,14 +178,14 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>クリップテクスチャによって指定される範囲のターゲットテクスチャを切り抜く </p>
+<p>Crop the range specified by the clip texture from the target texture. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">clipTexture</td><td>クリッピングに用いるテクスチャ</td></tr>
-    <tr><td class="paramname">clipScale</td><td>クリップテクスチャのターゲットテクスチャに対する大きさの割合</td></tr>
-    <tr><td class="paramname">grabTargetTexture</td><td>切り抜く対象のテクスチャ</td></tr>
-    <tr><td class="paramname">targetUV</td><td>ターゲットテクスチャ上のUV座標の指定</td></tr>
-    <tr><td class="paramname">dst</td><td>切り抜いたテクスチャの保存先テクスチャ</td></tr>
+    <tr><td class="paramname">clipTexture</td><td>Texture used for clipping.</td></tr>
+    <tr><td class="paramname">clipScale</td><td>The ratio of the size of the clip texture to the target texture.</td></tr>
+    <tr><td class="paramname">grabTargetTexture</td><td>Texture of clipping target.</td></tr>
+    <tr><td class="paramname">targetUV</td><td>UV coordinates on the target texture.</td></tr>
+    <tr><td class="paramname">dst</td><td>Store cropped texture.</td></tr>
   </table>
   </dd>
 </dl>
