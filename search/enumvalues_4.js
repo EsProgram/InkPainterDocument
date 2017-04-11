@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sub',['Sub',['../class_es_1_1_texture_paint_1_1_paint_brush.html#a835c9cc056987384fa4ecf824563716bae80155eceb940c89e2de63ad05868db2',1,'Es.TexturePaint.PaintBrush.Sub()'],['../class_es_1_1_texture_paint_1_1_paint_brush.html#af51658772f3b32ac5f1377ab59ee241dae80155eceb940c89e2de63ad05868db2',1,'Es.TexturePaint.PaintBrush.Sub()']]]
+  ['sub',['Sub',['../class_es_1_1_ink_painter_1_1_brush.html#a3548636ba5538ae7ba6ffb4e9fcfcc3eae80155eceb940c89e2de63ad05868db2',1,'Es.InkPainter.Brush.Sub()'],['../class_es_1_1_ink_painter_1_1_brush.html#ac7e6ea957a1735889704808c542f4ac2ae80155eceb940c89e2de63ad05868db2',1,'Es.InkPainter.Brush.Sub()']]]
 ];

@@ -17,8 +17,8 @@ var menudata={children:[
 {text:'o',url:'functions.html#index_o'},
 {text:'p',url:'functions.html#index_p'},
 {text:'r',url:'functions.html#index_r'},
-{text:'s',url:'functions.html#index_s'},
-{text:'v',url:'functions.html#index_v'}]},
+{text:'s',url:'functions.html#index_s'}]},
 {text:'Functions',url:'functions_func.html'},
 {text:'Enumerations',url:'functions_enum.html'},
-{text:'Properties',url:'functions_prop.html'}]}]}]}
+{text:'Properties',url:'functions_prop.html'},
+{text:'Events',url:'functions_evnt.html'}]}]}]}

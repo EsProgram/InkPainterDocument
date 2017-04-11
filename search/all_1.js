@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['brushheighttexture',['BrushHeightTexture',['../class_es_1_1_texture_paint_1_1_paint_brush.html#ae5592946bc0f88a781f6b6f002974c71',1,'Es::TexturePaint::PaintBrush']]],
-  ['brushnormaltexture',['BrushNormalTexture',['../class_es_1_1_texture_paint_1_1_paint_brush.html#ad4a1992c48396009726be4c00999c100',1,'Es::TexturePaint::PaintBrush']]],
-  ['brushtexture',['BrushTexture',['../class_es_1_1_texture_paint_1_1_paint_brush.html#a210c0c99d8d17ac629be69e6e4809115',1,'Es::TexturePaint::PaintBrush']]]
+  ['brush',['Brush',['../class_es_1_1_ink_painter_1_1_brush.html',1,'Es::InkPainter']]],
+  ['brushheighttexture',['BrushHeightTexture',['../class_es_1_1_ink_painter_1_1_brush.html#ab0581f43eb4fcf8149be297ad6161aae',1,'Es::InkPainter::Brush']]],
+  ['brushnormaltexture',['BrushNormalTexture',['../class_es_1_1_ink_painter_1_1_brush.html#abe91590789f8bd04b5396a233785951a',1,'Es::InkPainter::Brush']]],
+  ['brushtexture',['BrushTexture',['../class_es_1_1_ink_painter_1_1_brush.html#ac7ff5177b56594afa67f983f7996ec2c',1,'Es::InkPainter::Brush']]]
 ];

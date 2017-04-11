@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['clip',['Clip',['../class_es_1_1_effective_1_1_grab_area.html#acaf96d9383d8f26c02689d5c8ce2b947',1,'Es::Effective::GrabArea']]],
-  ['color',['Color',['../class_es_1_1_texture_paint_1_1_paint_brush.html#ad05be9657bc36af9194586c0755b3633',1,'Es::TexturePaint::PaintBrush']]],
-  ['colorblending',['ColorBlending',['../class_es_1_1_texture_paint_1_1_paint_brush.html#afa4b9df98b2fce7f5a5a04cbdae163c5',1,'Es::TexturePaint::PaintBrush']]],
-  ['colorblendtype',['ColorBlendType',['../class_es_1_1_texture_paint_1_1_paint_brush.html#a1cbd4b94bddc56b11125493daa59e522',1,'Es::TexturePaint::PaintBrush']]],
-  ['colorrgb_5fheighta',['ColorRGB_HeightA',['../class_es_1_1_texture_paint_1_1_paint_brush.html#af51658772f3b32ac5f1377ab59ee241da0509aa8bce5d4c979e7864e4aa55d700',1,'Es::TexturePaint::PaintBrush']]]
+  ['color',['Color',['../class_es_1_1_ink_painter_1_1_brush.html#a05c4b3d6aaa1cdbc5ea83a8d021b380c',1,'Es::InkPainter::Brush']]],
+  ['colorblending',['ColorBlending',['../class_es_1_1_ink_painter_1_1_brush.html#a7366e0d45f5a6d177ad8146027a33325',1,'Es::InkPainter::Brush']]],
+  ['colorblendtype',['ColorBlendType',['../class_es_1_1_ink_painter_1_1_brush.html#a7a5d8a639cd4dc3a03e4c7ae9ab12986',1,'Es::InkPainter::Brush']]],
+  ['colorrgb_5fheighta',['ColorRGB_HeightA',['../class_es_1_1_ink_painter_1_1_brush.html#ac7e6ea957a1735889704808c542f4ac2a0509aa8bce5d4c979e7864e4aa55d700',1,'Es::InkPainter::Brush']]]
 ];

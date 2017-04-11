@@ -1,9 +1,4 @@
 var searchData=
 [
-  ['getheighttexture',['GetHeightTexture',['../class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a179c04645b03340c81c07cd3bba113a6',1,'Es::TexturePaint::DynamicCanvas']]],
-  ['getmaintexture',['GetMainTexture',['../class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a10b0d26f2efeaf98bd8ea84861e01579',1,'Es::TexturePaint::DynamicCanvas']]],
-  ['getnormaltexture',['GetNormalTexture',['../class_es_1_1_texture_paint_1_1_dynamic_canvas.html#ad86981da49b195b18ac18e34debc8392',1,'Es::TexturePaint::DynamicCanvas']]],
-  ['getpaintheighttexture',['GetPaintHeightTexture',['../class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a3ddc8123cab4fd796cf395e8e391f93c',1,'Es::TexturePaint::DynamicCanvas']]],
-  ['getpaintmaintexture',['GetPaintMainTexture',['../class_es_1_1_texture_paint_1_1_dynamic_canvas.html#ae3b07d5ec1dc9bb1e8556512a677515c',1,'Es::TexturePaint::DynamicCanvas']]],
-  ['getpaintnormaltexture',['GetPaintNormalTexture',['../class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a61c376bd87d74e55dc4bd981b8f3fd0e',1,'Es::TexturePaint::DynamicCanvas']]]
+  ['localpointtouv',['LocalPointToUV',['../class_es_1_1_ink_painter_1_1_mesh_operator.html#a9b8845118cf7cc4babaa2f4ae09a6804',1,'Es::InkPainter::MeshOperator']]]
 ];

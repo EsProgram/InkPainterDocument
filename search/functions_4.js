@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nearestlocalsurfacepoint',['NearestLocalSurfacePoint',['../class_es_1_1_texture_paint_1_1_mesh_operator.html#a7b1bb014add5faca2ee301e02bbd9af8',1,'Es::TexturePaint::MeshOperator']]]
+  ['resetpaint',['ResetPaint',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a4d9be11994534a1fd73d0fd921f753b9',1,'Es::InkPainter::InkCanvas']]]
 ];

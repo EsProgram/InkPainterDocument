@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['lerp',['Lerp',['../class_es_1_1_effective_1_1_texture_morphing.html#a7a57bf32c6145d0f79e8965e9d4a7781',1,'Es::Effective::TextureMorphing']]],
-  ['localpointtouv',['LocalPointToUV',['../class_es_1_1_texture_paint_1_1_mesh_operator.html#ac820f5703cf41cc6a362d7f77018c3c6',1,'Es::TexturePaint::MeshOperator']]]
+  ['paint',['Paint',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a2aa161b3aff8d1798fe0cc332fa6df63',1,'Es.InkPainter.InkCanvas.Paint(Brush brush, Vector3 worldPos, Camera renderCamera=null)'],['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a06ffdf65f1215097b64699e03741a745',1,'Es.InkPainter.InkCanvas.Paint(Brush brush, RaycastHit hitInfo)']]],
+  ['paintnearesttrianglesurface',['PaintNearestTriangleSurface',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#ae21892f6c56b421f3c8243e00cbabf31',1,'Es::InkPainter::InkCanvas']]],
+  ['paintuvdirect',['PaintUVDirect',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#ae752c6af7cc7afb1a09b07c059e262da',1,'Es::InkPainter::InkCanvas']]]
 ];

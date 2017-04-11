@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['oninitializedafter',['OnInitializedAfter',['../class_es_1_1_texture_paint_1_1_dynamic_canvas.html#ab02253a48607e037fb1b7d7848349a99',1,'Es::TexturePaint::DynamicCanvas']]]
+  ['scale',['Scale',['../class_es_1_1_ink_painter_1_1_brush.html#a1ee6efbc7afd370b139beb2f382aa918',1,'Es::InkPainter::Brush']]]
 ];

@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['scale',['Scale',['../class_es_1_1_texture_paint_1_1_paint_brush.html#ae06cf2c00eab501cb8e2f59e649ebdf8',1,'Es::TexturePaint::PaintBrush']]],
+  ['scale',['Scale',['../class_es_1_1_ink_painter_1_1_brush.html#a1ee6efbc7afd370b139beb2f382aa918',1,'Es::InkPainter::Brush']]],
   ['sceneviewcamera',['SceneViewCamera',['../class_es_1_1_utility_1_1_scene_view_camera.html',1,'Es::Utility']]],
-  ['setpaintheighttexture',['SetPaintHeightTexture',['../class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a006eb193e8e9934253d8c37901560780',1,'Es::TexturePaint::DynamicCanvas']]],
-  ['setpaintmaintexture',['SetPaintMainTexture',['../class_es_1_1_texture_paint_1_1_dynamic_canvas.html#a169e43f0fabe516e663540c1441365a7',1,'Es::TexturePaint::DynamicCanvas']]],
-  ['setpaintnormaltexture',['SetPaintNormalTexture',['../class_es_1_1_texture_paint_1_1_dynamic_canvas.html#abaa264564e7b1c453e25c589a54efb7a',1,'Es::TexturePaint::DynamicCanvas']]],
-  ['sub',['Sub',['../class_es_1_1_texture_paint_1_1_paint_brush.html#a835c9cc056987384fa4ecf824563716bae80155eceb940c89e2de63ad05868db2',1,'Es.TexturePaint.PaintBrush.Sub()'],['../class_es_1_1_texture_paint_1_1_paint_brush.html#af51658772f3b32ac5f1377ab59ee241dae80155eceb940c89e2de63ad05868db2',1,'Es.TexturePaint.PaintBrush.Sub()']]]
+  ['setpaintheighttexture',['SetPaintHeightTexture',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a9310823a5594d5f60a19b949bbbb97ff',1,'Es::InkPainter::InkCanvas']]],
+  ['setpaintmaintexture',['SetPaintMainTexture',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a9c5c6fd56402c2a7fb97e79e285ab29c',1,'Es::InkPainter::InkCanvas']]],
+  ['setpaintnormaltexture',['SetPaintNormalTexture',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#af6ab51451e8525532859a8f14c973759',1,'Es::InkPainter::InkCanvas']]],
+  ['sub',['Sub',['../class_es_1_1_ink_painter_1_1_brush.html#a3548636ba5538ae7ba6ffb4e9fcfcc3eae80155eceb940c89e2de63ad05868db2',1,'Es.InkPainter.Brush.Sub()'],['../class_es_1_1_ink_painter_1_1_brush.html#ac7e6ea957a1735889704808c542f4ac2ae80155eceb940c89e2de63ad05868db2',1,'Es.InkPainter.Brush.Sub()']]]
 ];

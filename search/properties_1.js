@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['color',['Color',['../class_es_1_1_texture_paint_1_1_paint_brush.html#ad05be9657bc36af9194586c0755b3633',1,'Es::TexturePaint::PaintBrush']]],
-  ['colorblending',['ColorBlending',['../class_es_1_1_texture_paint_1_1_paint_brush.html#afa4b9df98b2fce7f5a5a04cbdae163c5',1,'Es::TexturePaint::PaintBrush']]]
+  ['color',['Color',['../class_es_1_1_ink_painter_1_1_brush.html#a05c4b3d6aaa1cdbc5ea83a8d021b380c',1,'Es::InkPainter::Brush']]],
+  ['colorblending',['ColorBlending',['../class_es_1_1_ink_painter_1_1_brush.html#a7366e0d45f5a6d177ad8146027a33325',1,'Es::InkPainter::Brush']]]
 ];
