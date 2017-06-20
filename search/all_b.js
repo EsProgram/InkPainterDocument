@@ -1,6 +1,11 @@
 var searchData=
 [
-  ['paint',['Paint',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a2aa161b3aff8d1798fe0cc332fa6df63',1,'Es.InkPainter.InkCanvas.Paint(Brush brush, Vector3 worldPos, Camera renderCamera=null)'],['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a06ffdf65f1215097b64699e03741a745',1,'Es.InkPainter.InkCanvas.Paint(Brush brush, RaycastHit hitInfo)']]],
-  ['paintnearesttrianglesurface',['PaintNearestTriangleSurface',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#ae21892f6c56b421f3c8243e00cbabf31',1,'Es::InkPainter::InkCanvas']]],
-  ['paintuvdirect',['PaintUVDirect',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#ae752c6af7cc7afb1a09b07c059e262da',1,'Es::InkPainter::InkCanvas']]]
+  ['paint',['Paint',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a639665d0154d997d9fefa131c4df8294',1,'Es.InkPainter.InkCanvas.Paint(Brush brush, Vector3 worldPos, Func&lt; PaintSet, bool &gt; materialSelector=null, Camera renderCamera=null)'],['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a9dee5173e664baa156899c746da13e60',1,'Es.InkPainter.InkCanvas.Paint(Brush brush, RaycastHit hitInfo, Func&lt; PaintSet, bool &gt; materialSelector=null)']]],
+  ['paintdatas',['PaintDatas',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a4d95b26d2566cb600e995f3f1cfdecf1',1,'Es::InkPainter::InkCanvas']]],
+  ['paintheighttexture',['paintHeightTexture',['../class_es_1_1_ink_painter_1_1_ink_canvas_1_1_paint_set.html#a80ac69e6ad95854722580f0709451005',1,'Es::InkPainter::InkCanvas::PaintSet']]],
+  ['paintmaintexture',['paintMainTexture',['../class_es_1_1_ink_painter_1_1_ink_canvas_1_1_paint_set.html#acc24075160241c775e51201aaa8c2de3',1,'Es::InkPainter::InkCanvas::PaintSet']]],
+  ['paintnearesttrianglesurface',['PaintNearestTriangleSurface',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a33533f074115e4fe3824c0b287632085',1,'Es::InkPainter::InkCanvas']]],
+  ['paintnormaltexture',['paintNormalTexture',['../class_es_1_1_ink_painter_1_1_ink_canvas_1_1_paint_set.html#a6ab551eac9162c18e6288b0079c6334d',1,'Es::InkPainter::InkCanvas::PaintSet']]],
+  ['paintset',['PaintSet',['../class_es_1_1_ink_painter_1_1_ink_canvas_1_1_paint_set.html',1,'Es::InkPainter::InkCanvas']]],
+  ['paintuvdirect',['PaintUVDirect',['../class_es_1_1_ink_painter_1_1_ink_canvas.html#a375657d8170f2d972e50708e7efa67d4',1,'Es::InkPainter::InkCanvas']]]
 ];
